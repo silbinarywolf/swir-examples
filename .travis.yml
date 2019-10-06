@@ -5,7 +5,7 @@ go:
 
 os:
   - linux
-  # This got a segfault, 2019-10-06
+  # This got a segfault on Travis but not on local Windows machine, 2019-10-06
   #- windows
   # Doesn't work, "An invalid error was not accepted by the caller: FormatUnavailable: NSGL: Failed to find a suitable pixel format"
   #- osx
