@@ -44,8 +44,8 @@ func TestPlayRecording(t *testing.T) {
 		ebiten.SetMaxTPS(ebiten.MaxTPS() * 4)
 		if err := ebiten.Run(testPlayRecordingUpdate, 320, 240, 2, "Hello world!"); err != nil {
 			if err == errPlaybackFinished {
-				const expectX = 128
-				const expectY = 92
+				const expectX = 152
+				const expectY = 76
 				x, y := game.GetPlayerPos()
 				if x != expectX ||
 					y != expectY {
